@@ -5,12 +5,11 @@ export default function Home() {
     <Layout>
       <h1>Bem-vinda(o) ao <span style={{ color: "teal" }}>Conhecimento Sara</span></h1>
       <p>
-         Sou <strong>Sara Cavazotti</strong>, fisioterapeuta apaixonada por saúde e 
+         Olá! Sou a <strong> Dra Sara Cavazotti</strong>, fisioterapeuta apaixonada por saúde e 
         qualidade de vida. Depois de anos de experiência clínica e acadêmica,
         decidi trazer meu conhecimento também para o digital, unindo 
         <strong> reabilitação, desenvolvimento humano e tecnologia</strong>.
       </p>
-
 
       <p style={{ marginBottom: "1rem" }}>
         Aqui você vai encontrar conteúdos práticos e dinâmicos para acabar com as dores
