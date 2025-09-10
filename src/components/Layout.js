@@ -1,6 +1,25 @@
+// src/components/Layout.js
+import Head from "next/head";
 import Link from "next/link";
 
 export default function Layout({ children }) {
+  const navStyle = {
+    display: "flex",
+    gap: "12px",
+    padding: "18px 24px",
+    alignItems: "center",
+    borderBottom: "1px solid #eee",
+    background: "#fff",
+  };
+
+  const linkStyle = {
+    textDecoration: "none",
+    color: "#333",
+    fontWeight: 600,
+    padding: "8px 14px",
+    borderRadius: "8px",
+  };
+
   return (
     <div>
       {/* Barra de navegação */}
@@ -53,4 +72,3 @@ export default function Layout({ children }) {
     </div>
   );
 }
-
